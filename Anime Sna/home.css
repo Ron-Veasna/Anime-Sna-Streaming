@@ -1,0 +1,380 @@
+body{
+    height: 2000px;
+}
+.logo{
+    background-color: rgb(35,37,43);
+    height: 59px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.logo .menu{
+    display: flex;
+}
+.logo .menu .img{
+    display: flex;
+    justify-content: right;
+}
+.logo .menu img{
+    width: 45%;
+    object-fit: cover;
+}
+.logo .menu .img img:hover{
+    content: url(3.png);
+}
+.logo .menu .menu-box{
+    width: 50%;
+}
+.logo .menu .menu-box ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.logo .menu .menu-box ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+}
+.logo .menu .menu-box ul li a:hover{
+    background-color: #000000af;
+}
+.logo .menu-right ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 52%;
+}
+.logo .menu-right ul li a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+}
+.logo .menu-right ul li a:hover{
+    background-color: #000000af;
+}
+.logo .menu-right ul li  img{
+    height: 56px;
+    margin-top: 3px;
+}
+.ads{
+    height: 742px;
+}
+.ads img{
+    height: 602px;   
+}
+.ads .box{
+    max-width: 60.8%;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ads .box .text{
+    height: 100px;
+    padding: 0;
+}
+.ads .box .text .tt{
+    transition: 0.3s;
+    height: 55px;
+    margin-top: 20px;
+    background-color: rgb(35,37,43);
+}
+.ads .box .text .tt:hover{
+    background-color: rgb(68, 68, 68);
+}
+.ads .box .text .tt h1{
+    font-size: 12px;
+    height: 100%;
+    color: white;
+    padding-top: 13px;
+    cursor: pointer;
+}
+.title{
+
+    border-bottom: 4px solid #2abdbb;
+}
+.title .ttbox{ 
+    padding: 0;
+}
+.title .ttbox h1{
+    font-size: 32px;
+    font-family: 'Itim', cursive;
+    color: white;
+}
+.title .ttbox p{
+    color: white;
+}
+.anime{
+    margin-top: 15px;
+}
+.anime .box1{
+    margin-bottom: 28px;
+    width: 100%;
+    height: 317px;
+    display: flex;
+    gap: 5px;
+}
+.anime .box1 .box{
+    height: 100%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.anime .box1 .box:hover{
+    transform: scale(0.93);
+}
+.anime .box1 .box .img{
+    width: 100%;
+    height: 225px;
+}
+.anime .box1 .box .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anime .box1 .box .text1{
+    width: 100%;
+    height: 60px;
+}
+.anime .box1 .box .text1 h1{
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+}
+.anime .box1 .box .text1 h2{
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+}
+.anime .box2{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 64px;
+    display: flex;
+}
+.anime .box2 .boxa{
+    width: 53%;
+    height: 100%;
+    transition: 0.4s;
+}
+.anima .box2 .boxa iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+.anime .box2 .boxa:hover{
+    transform: scale(0.95);
+}
+.anime .box2 .boxb{
+    width: 47%;
+    height: 100%;
+}
+.anime .box2 .boxb .boxs{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid red;
+}
+.anime .box2 .boxb .boxs h1{
+    font-size: 30px;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+.anime .box2 .boxb .boxz{
+    width: 100%;
+    height: 39.5%;
+    display: flex;
+    margin-top: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.anime .box2 .boxb .boxz:hover{
+    transform: scale(0.93);
+}
+.anime .box2 .boxb .boxz .img{
+    width: 50%;
+    height: 100%;
+}
+.anime .box2 .boxb .boxz .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anime .box2 .boxb .boxz .text{
+    width: 50%;
+    height: 100%;
+    padding: 0px 12px;
+    box-sizing: border-box;
+}
+.anime .box2 .boxb .boxz .text h1{
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+.anime .box2 .boxb .boxz .text h2{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: rgb(247, 131, 151);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.anime .box2 .boxb .boxz .text h2:hover i{
+    color: red;
+}
+.anime .box2 .boxb .boxz .text h2:hover{
+    color: white;
+}
+.anime .box3{
+    width: 100%;
+}
+.anime .box3 img{
+    cursor: pointer;
+    width: 100%;
+    transition: 0.4s;
+}
+.anime .box3 img:hover{
+    transform: scale(0.98);
+}
+.part{
+    width: 100%;
+    margin-top: 40px; 
+    position: relative;
+}
+.part .img{
+    width: 100%;
+   
+}
+.part .img img{
+    width: 100%;
+}
+.part .container{
+    position: absolute;
+    width: 100%;
+    height: 685px;
+    top: 40px;
+    left: 380px;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.part .container .head{
+    width: 100%;
+}
+.part .container .head ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.part .container .head ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.part .container .head ul li a:hover{
+    color: orange;
+}
+.part .container .bo{
+    width: 100%;
+    display: flex;
+}
+.part .container .bo .box1{
+    width: 25%;
+}
+.part .container .bo .box1 h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.part .container .bo .box1 .boxa{
+    width: 100%;
+    height:260px;
+}
+.part .container .bo .box1 .boxa:hover .img img{
+    transform: scale(0.95);
+}
+.part .container .bo .box1 .boxa:hover .text h1{
+    color: orange;
+}
+.part .container .bo .box1 .boxa .img{
+    width: 100%;
+    height: 55%;
+}
+.part .container .bo .box1 .boxa .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.part .container .bo .box1 .boxa .text{
+    width: 100%;
+    height: 45%;
+}
+.part .container .bo .box1 .boxa .text h1{
+    font-size: 18px;
+    transition: 0.4s;
+}
+.part .container .bo .box1 .boxa .text h3{
+    color: rgb(172, 170, 170);
+    font-size: 14px;
+}
+.part .container .bo .box2{
+    width: 73%;
+    margin-left: 2%;
+}
+.part .container .bo .box2 h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.part .container .bo .box2 .boxb{
+    width: 100%;
+    display: flex;
+}
+.part .container .bo .box2 .boxb .boxz{
+    width: 49.5%;
+    height: 540px;
+}
+.part .container .bo .box2 .boxb .boxz .boxa{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+.part .container .bo .box2 .boxb .boxz .boxa:hover{
+    transform: scale(0.95);
+}
+.part .container .bo .box2 .boxb .boxz .boxa .img{
+    width: 33%;
+    margin-right: 2%;
+}
+.part .container .bo .box2 .boxb .boxz .boxa .img img{
+    width: 100%;
+}
+.part .container .bo .box2 .boxb .boxz .boxa .text{
+    width: 65%;
+}
+.part .container .bo .box2 .boxb .boxz .boxa .text h1{
+    font-size: 14px;
+    transition: 0.3s;
+}
+.part .container .bo .box2 .boxb .boxz .boxa .text:hover h1{
+    color: orange;
+}
+.part .container .bo .box2 .boxb .boxz .boxa .text h3{
+    font-size: 12px;
+    color: rgb(172, 170, 170);
+}
+
+
+
