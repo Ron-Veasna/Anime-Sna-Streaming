@@ -375,6 +375,120 @@ body{
     font-size: 12px;
     color: rgb(172, 170, 170);
 }
-
-
-
+.footer-last{
+    width: 100%;
+    height: 470px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.footer-last .img{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.footer-last .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footer-last .img h1{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-last .img button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn:hover,:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  }
+.refer{
+    background-color: rgba(20, 20, 20, 0.719);
+    width: 100%;
+    height: 300px;
+}
+.refer .item{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.refer .item .box{
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.refer .item .box h1{
+    color: rgb(204, 203, 203);
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: blod;
+    font-size: 25px;
+    transition: 0.4s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.refer .item .box h1:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(0.9);
+}
+.refer .item .box h3{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 166, 0, 0.719);
+}
+.refer .item .box h3:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.refer .item .box button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn:hover,:focus {
+    color: #ffffff;
+    background: #ff00d4;
+    border: 1px solid #ff00bf;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ff00b3,
+                0 0 20px #ff009d,
+                0 0 50px #ff00b3,
+                0 0 100px #ff00b3;
+  }
